@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 export default function SignUp() {
@@ -11,18 +10,21 @@ export default function SignUp() {
           placeholder="Username"
           className="border p-3 rounded-lg"
           id="username"
+         
         />
         <input
           type="email"
           placeholder="Email"
           className="border p-3 rounded-lg"
           id="email"
+         
         />
         <input
           type="password"
           placeholder="password"
           className="border p-3 rounded-lg"
           id="password"
+         
         />
         <button className="bg-slate-700 text-white p-3 rounded hover:opacity-95 disabled:opacity-80">
           Sign up
