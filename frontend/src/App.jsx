@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import SignIn from "./pages/SignIn";
+import SignInController from "./controller/SignInController";
 import SignUpController from "./controller/SignUpController";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-in" element={<SignInController />} />
 
         <Route path="/sign-up" element={<SignUpController />} />
 
