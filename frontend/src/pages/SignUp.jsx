@@ -32,7 +32,7 @@ export default function SignUp(props) {
         />
         <input
           type="password"
-          placeholder="password"
+          placeholder="Password"
           className="border p-3 rounded-lg"
           id="password"
           onChange={handleChange}
@@ -40,7 +40,7 @@ export default function SignUp(props) {
         />
         <button
           disabled={loading}
-          className="bg-slate-700 text-white p-3 rounded hover:opacity-95 disabled:opacity-80"
+          className="bg-slate-700 text-white p-3 rounded uppercase hover:opacity-95 disabled:opacity-80"
         >
           {loading ? "Loading..." : "Sign Up"}
         </button>
